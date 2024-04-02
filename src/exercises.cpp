@@ -18,6 +18,18 @@ void exercise_1(string s1) {
 
 void exercise_2(string s1) {
   // TODO: YOUR CODE HERE
+  for(int i= 0; i<s1.size(); ++i){
+       if(s1[i]!= ' '){
+           cad1=cad1+s1[i];
+       }
+       else{
+            cout<<"["<<cad1<<"]"<<endl;
+            cad1="";
+       }
+
+   }
+   cout<<"["<<cad1<<"]"<<endl;
+   //cout<<cad.size()<<endl;
 }
 
 void exercise_3(string s1) {
