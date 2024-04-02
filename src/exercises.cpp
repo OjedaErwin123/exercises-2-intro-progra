@@ -12,7 +12,6 @@ void exercise_1(string s1) {
   
        }
    }
-   
    cout<<s1.size()<<endl;
 }
 
