@@ -23,7 +23,10 @@ void exercise_2(string s1) {
        if(s1[i]!= ' '){
            cad1=cad1+s1[i];
        }
-       else{
+       else if(s1[i])== ' '{
+           cout<<"";
+       } 
+       else if{
             cout<<"["<<cad1<<"]"<<endl;
             cad1="";
        }
