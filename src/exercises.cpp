@@ -23,16 +23,18 @@ void exercise_2(string s1) {
        if(s1[i]!= ' '){
            cad1=cad1+s1[i];
        }
-       if(s1[i]== ' '){
-           cout<<"";
-       } 
        else {
             cout<<"["<<cad1<<"]"<<endl;
             cad1="";
        }
 
    }
-   cout<<"["<<cad1<<"]"<<endl;
+   if(cad1 == ' '){
+     cout<<"";
+   }
+   else{
+     cout<<"["<<cad1<<"]"<<endl;
+   }
    //cout<<cad.size()<<endl;
 }
 
