@@ -78,6 +78,7 @@ void exercise_5(int n, int k) {
                     h++;
                 }
             }
+            
             else{
                 if(h<10){
                 cout<<" "<<h<<" ";
