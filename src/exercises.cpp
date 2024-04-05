@@ -65,7 +65,7 @@ int x=1;
 
 void exercise_5(int n, int k) {
   // TODO: YOUR CODE HERE
-  h=1;
+  int h=1;
     if(1<=n<=7 && 1<=k<=99){
         while(h<=f){
             if(h % 7 ==0){
