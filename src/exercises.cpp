@@ -29,7 +29,7 @@ void exercise_2(string s1) {
        }
 
    }
-   if(cad1 == '32'){
+   if(cad1 == ""){
      cout<<"";
    }
    else{
