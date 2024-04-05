@@ -47,11 +47,15 @@ void exercise_4(int n) {
   int i=n-1;
   int z=0;
     if(n<0){
-        cout<<"El numero es negativo. Intentelo de Nuevo";
+        cout<<"El numero es negativo. Intentelo de Nuevo\n";
     }
     else{
+
+        if(n==0){
+            cout<<n"\n";
+        }
         if(n>=14){
-            cout<<"El numero es muy grande. Intentelo de Nuevo";
+            cout<<"El numero es muy grande. Intentelo de Nuevo\n";
         }
         else{
             while(i<n){
