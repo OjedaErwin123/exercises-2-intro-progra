@@ -50,7 +50,7 @@ void exercise_4(int n) {
         cout<<"El numero es negativo. Intentelo de nuevo\n";
     }
     if(n==1){
-      cout<<n;
+      cout<<n<<"\n";
     }
     else{
         if(n>=14){
