@@ -49,12 +49,13 @@ void exercise_4(int n) {
     if(n<0){
         cout<<"El numero es negativo. Intentelo de nuevo\n";
     }
-    else if(n==1){
-      cout<<n<<"\n";
-    }
+    
     else {
         if(n>=14){
             cout<<"El numero es muy grande. Intentelo de nuevo\n";
+        }
+        else if(n==1){
+            cout<<n<<"\n";
         }
         else{
             while(i<n){
