@@ -78,7 +78,7 @@ void exercise_5(int n, int k) {
                     h++;
                 }
             }
-            
+
             else{
                 if(h<10){
                 cout<<" "<<h<<" ";
@@ -100,6 +100,15 @@ int exercise_6(int n) {
 
 void exercise_7(int n) {
   // TODO: YOUR CODE HERE
+    double x,r;
+    x=1;
+    r=0;
+    for(int i=1; i<=n; i++){
+        r= r + (pow(-1,(i+1))/i);
+        
+    }
+    
+    cout<<r<<endl;
 }
 
 void exercise_8(string s) {
