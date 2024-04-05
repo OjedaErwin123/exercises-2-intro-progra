@@ -111,6 +111,25 @@ void exercise_7(int n) {
 
 void exercise_8(string s) {
   // TODO: YOUR CODE HERE
+    int x,y,z;
+    string bin,bin1;
+    char a;
+    int j=0;
+    x=1;
+    int lon=s.size()-1;
+    while (j<=lon){
+        a=s[lon];
+        lon=lon-1;
+        bin1=bin1 + a;
+    }
+    cout<<bin1<<endl;
+    if(bin1==s){
+        cout<<"Las cadenas son iguales";
+    }
+    else{
+        cout<<"No son iguales";
+    }
+    return 0;
 }
 
 void exercise_9(string s) {
