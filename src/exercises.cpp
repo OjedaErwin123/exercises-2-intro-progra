@@ -67,7 +67,7 @@ void exercise_5(int n, int k) {
   // TODO: YOUR CODE HERE
   int h=1;
     if(1<=n<=7 && 1<=k<=99){
-        while(h<=f){
+        while(h<=k){
             if(h % 7 ==0){
                 if(h<10){
                 cout<<" "<<h<<" "<<endl;
@@ -75,7 +75,7 @@ void exercise_5(int n, int k) {
                 }
                 else{
                     cout<<h<<" "<<endl;
-                    n++;
+                    h++;
                 }
             }
             else{
