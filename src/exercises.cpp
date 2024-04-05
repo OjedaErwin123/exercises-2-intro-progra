@@ -104,10 +104,8 @@ void exercise_7(int n) {
     x=1;
     r=0;
     for(int i=1; i<=n; i++){
-        r= r + (pow(-1,(i+1))/i);
-        
+        r= r + (pow(-1,(i+1))/i);  
     }
-    
     cout<<r<<endl;
 }
 
