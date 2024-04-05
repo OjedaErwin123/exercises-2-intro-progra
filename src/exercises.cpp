@@ -52,7 +52,7 @@ void exercise_4(int n) {
     else if(n==1){
       cout<<n<<"\n";
     }
-    else if{
+    else {
         if(n>=14){
             cout<<"El numero es muy grande. Intentelo de nuevo\n";
         }
