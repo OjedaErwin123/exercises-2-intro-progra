@@ -50,11 +50,6 @@ void exercise_4(int n) {
         cout<<"El numero es negativo. Intentelo de nuevo\n";
     }
     else{
-
-        if(n==1){
-            cout<<n;
-            break;
-        }
         if(n>=14){
             cout<<"El numero es muy grande. Intentelo de nuevo\n";
         }
