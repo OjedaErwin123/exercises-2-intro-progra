@@ -58,6 +58,7 @@ void exercise_4(int n) {
         else{
           if(n==1){
               cout<<n<<"\n";
+              break;
            }
             while(i<n){
                 n*=i;
