@@ -158,14 +158,15 @@ void exercise_8(string s) {
                 l++;
             }
             else{
-                cout<<"NO";
+                cout<<"NO\n";
+                break;
             }
         }
         z++;
         sw=1;
     }
     if(sw == 1){
-        cout<<"YES";
+        cout<<"YES\n";
     }
      
 }
