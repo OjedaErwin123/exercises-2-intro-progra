@@ -165,7 +165,8 @@ void exercise_8(string s) {
         z++;
         sw=1;
     }
-    int valor(int sw){
+    int valor(int sw)
+    {
     if(sw == 1){
         b=YES;
         return b;
@@ -174,6 +175,7 @@ void exercise_8(string s) {
       return "NO";
     }
     }
+    
      
 }
 
