@@ -95,7 +95,15 @@ void exercise_5(int n, int k) {
 
 int exercise_6(int n) {
   // TODO: YOUR CODE HERE
-  return 0;
+  int t;
+    
+    t=0;
+    while(n>0){
+        t = t + n%10;
+        n=n/10;
+    }
+    //cout<<t<<endl;
+  return t;
 }
 
 void exercise_7(int n) {
@@ -146,15 +154,7 @@ void exercise_15(int decimal) {
 }
 
 void exercise_16(int divident, int divider) {
-  // TODO: YOUR CODE HERE
-  int n,x,y,z; 
-    
-    for(int i=1; divider>=divident;i++){
-        divider=divider-divident;
-        n=i;
-    }
-    cout<<n<<" veces"<<endl;
-    cout<<divider<<" sobra";  
+  // TODO: YOUR CODE HERE 
 }
 
 void exercise_17(int n) {
