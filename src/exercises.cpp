@@ -145,12 +145,8 @@ void exercise_8(string s) {
         }
         
     }
-    
-    //cout<<n<<endl;
-    //cout<<bin1<<endl;
     sw=0;
     z=1;
-    //lon2=n.size();
     while(z<=(lon2=s.size())){
         if(bin1[m]==s[l]){
             m++;
@@ -167,8 +163,7 @@ void exercise_8(string s) {
         }
         z++;
         sw=1;
-    }
-      
+    } 
     if(sw == 1){
       cout<<"YES\n";
         return;
