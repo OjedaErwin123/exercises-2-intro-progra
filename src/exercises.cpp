@@ -158,27 +158,18 @@ void exercise_8(string s) {
                 l++;
             }
             else{
-                //cout<<"NO\n";
-                break;
+                cout<<"NO\n";
+                return 0;
             }
         }
         z++;
         sw=1;
     }
-    bool valor(int sw1){
       
     if(sw1 == 1){
         b=YES;
         return b;
     }
-    else{
-      return "NO";
-    }
-    
-    }
-    
-  sw = valor;
-  cout<<sw;
 }
 
 void exercise_9(string s) {
