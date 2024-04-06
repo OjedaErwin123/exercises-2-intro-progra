@@ -147,7 +147,7 @@ void exercise_15(int decimal) {
 
 void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
-      int n,x,y,z;
+  /*    int n,x,y,z;
       x=divider;
       y=divident;
     z=0;
@@ -162,11 +162,34 @@ void exercise_16(int divident, int divider) {
         //cout<<z<<endl;
     }
     x=x-z;
-    cout<<n<<" "<<x<<endl;
+    cout<<n<<" "<<x<<endl;*/
 }
 
 void exercise_17(int n) {
   // TODO: YOUR CODE HERE
+  int a,x,y,z,r;
+    r=0;
+    x=2;
+    if(n<0){
+        cout<<"No hay primos negativos";
+    }
+    while (r<n){
+     a=2;  
+      while(a<=x){
+          y=x%a;
+            if(y==0){
+                 if(x==a){
+                  cout<<x<<" ";
+                  r++;
+                  }
+                  else{
+                  break;
+                 }
+              }
+        a++;
+       }
+    x++;
+    }
 }
 
 void exercise_18_19(int debut, int fin) {
