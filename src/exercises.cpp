@@ -154,8 +154,7 @@ void exercise_16(int divident, int divider) {
         n=i;
     }
     cout<<n<<" veces"<<endl;
-    cout<<divider<<" sobra";
-    
+    cout<<divider<<" sobra";  
 }
 
 void exercise_17(int n) {
