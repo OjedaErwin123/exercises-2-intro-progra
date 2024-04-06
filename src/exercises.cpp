@@ -147,7 +147,7 @@ void exercise_15(int decimal) {
 
 void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
-  int n,z;
+  /*int n,z;
     z=0;
     while(z<divider){
         z=z+divident;
@@ -160,7 +160,7 @@ void exercise_16(int divident, int divider) {
         }
     }
     divider=divider-z;
-    cout<<n<<" "<<divider<<endl;
+    cout<<n<<" "<<divider<<endl;*/
 }
 
 void exercise_17(int n) {
