@@ -165,7 +165,7 @@ void exercise_8(string s) {
         z++;
         sw=1;
     }
-        int valor(int sw1){
+    int valor(int sw1)
     if(sw1 == 1){
         b=YES;
         return b;
@@ -173,7 +173,7 @@ void exercise_8(string s) {
     else{
       return "NO";
     }
-    }
+    
   sw = valor;
   cout<<sw;
 }
