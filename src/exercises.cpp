@@ -122,7 +122,7 @@ void exercise_8(string s) {
         lon=lon-1;
         bin1=bin1 + a;
     }
-    cout<<bin1<<endl;
+    //cout<<bin1<<endl;
     if(bin1==s){
         return "YES\n";
     }
