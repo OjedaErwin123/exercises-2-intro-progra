@@ -111,25 +111,7 @@ void exercise_7(int n) {
 
 void exercise_8(string s) {
   // TODO: YOUR CODE HERE
-    int x,y,z;
-    string bin,bin1;
-    char a;
-    int j=0;
-    x=1;
-    int lon=s.size()-1;
-    while (j<=lon){
-        a=s[lon];
-        lon=lon-1;
-        bin1=bin1 + a;
-    }
-    //cout<<bin1<<endl;
-    if(bin1==s){
-        return "YES\n";
-    }
-    else{
-        return "NO\n";
-    }
-   
+  return 0;   
 }
 
 void exercise_9(string s) {
@@ -165,6 +147,20 @@ void exercise_15(int decimal) {
 
 void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
+  int n,x,y,z;
+    z=0;
+    while(z<divider){
+        z=z+divident;
+        n++;
+        
+        if(z>divider){
+            z=z-divident;
+            n--;
+            break;
+        }
+    }
+    divider=divider-z;
+    cout<<n<<""<<divider<<endl;
 }
 
 void exercise_17(int n) {
