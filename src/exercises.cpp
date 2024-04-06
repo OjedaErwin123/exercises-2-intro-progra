@@ -120,7 +120,7 @@ void exercise_7(int n) {
 void exercise_8(string s) {
   // TODO: YOUR CODE HERE
   int x,y,z,m,l;
-    string n,bin1;
+    string b,n,bin1;
     char a;
     int j=0;
     int sw,lon2;
@@ -166,8 +166,8 @@ void exercise_8(string s) {
         sw=1;
     }
     if(sw == 1){
-        //cout<<"YES\n";
-        return 'YES\n';
+        b=YES;
+        return b;
     }
      
 }
