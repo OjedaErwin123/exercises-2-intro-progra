@@ -124,12 +124,12 @@ void exercise_8(string s) {
     }
     cout<<bin1<<endl;
     if(bin1==s){
-        cout<<"Las cadenas son iguales";
+        return "YES\n";
     }
     else{
-        cout<<"No son iguales";
+        return "NO\n";
     }
- //return 0;
+   
 }
 
 void exercise_9(string s) {
