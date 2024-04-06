@@ -166,7 +166,8 @@ void exercise_8(string s) {
         sw=1;
     }
     if(sw == 1){
-        cout<<"YES\n";
+        //cout<<"YES\n";
+        return YES;
     }
      
 }
