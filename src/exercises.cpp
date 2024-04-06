@@ -158,7 +158,6 @@ void exercise_16(int divident, int divider) {
         if(z>x){
             z=z-y;
             n--;
-            break;
         }
         //cout<<z<<endl;
     }
