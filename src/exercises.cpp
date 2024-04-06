@@ -128,9 +128,8 @@ void exercise_8(string s) {
     }
     else{
         cout<<"No son iguales";
-        return 0;
     }
-    
+ //return 0;
 }
 
 void exercise_9(string s) {
