@@ -111,7 +111,7 @@ void exercise_7(int n) {
 
 void exercise_8(string s) {
   // TODO: YOUR CODE HERE
-  return 0;   
+  //return 0;   
 }
 
 void exercise_9(string s) {
