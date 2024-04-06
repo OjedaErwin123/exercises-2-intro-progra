@@ -128,7 +128,10 @@ void exercise_8(string s) {
     m=1;
     l=1;
     int lon=s.size()-1;
-    //cout<<lon;
+    if(s==""){
+      cout<<"YES\n";
+    }
+    //
     while (j<=lon){
         a=s[lon];
         lon=lon-1;
