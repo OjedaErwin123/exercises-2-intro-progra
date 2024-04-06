@@ -174,7 +174,7 @@ void exercise_8(string s) {
       return "NO";
     }
     }
-    sw = valor;
+    int valor;
     
      
 }
