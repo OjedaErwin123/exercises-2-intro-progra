@@ -119,7 +119,55 @@ void exercise_7(int n) {
 
 void exercise_8(string s) {
   // TODO: YOUR CODE HERE
-  //return 0;   
+  int x,y,z,m,l;
+    string n,bin1;
+    char a;
+    int j=0;
+    int sw,lon2;
+    x=1;
+    m=1;
+    l=1;
+    int lon=s.size()-1;
+    //cout<<lon;
+    while (j<=lon){
+        a=s[lon];
+        lon=lon-1;
+        if(a == 32){
+            cout<<"";
+        }
+        else{
+        
+        bin1=bin1 + a;
+            
+        }
+        
+    }
+    
+    //cout<<n<<endl;
+    //cout<<bin1<<endl;
+    sw=0;
+    z=1;
+    //lon2=n.size();
+    while(z<=(lon2=s.size())){
+        if(bin1[m]==s[l]){
+            m++;
+            l++;
+        }
+        else{
+            if(s[l]==32){
+                l++;
+            }
+            else{
+                return "NO";
+            }
+        }
+        z++;
+        sw=1;
+    }
+    if(sw == 1){
+        return "YES";
+    }
+     
 }
 
 void exercise_9(string s) {
