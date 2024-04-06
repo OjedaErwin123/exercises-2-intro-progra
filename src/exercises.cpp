@@ -165,13 +165,16 @@ void exercise_8(string s) {
         z++;
         sw=1;
     }
-    bool valor(int sw1)
+    bool valor(int sw1){
+      
     if(sw1 == 1){
         b=YES;
         return b;
     }
     else{
       return 0;
+    }
+    
     }
     
   sw = valor;
