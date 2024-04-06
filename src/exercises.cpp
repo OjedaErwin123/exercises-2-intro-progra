@@ -158,7 +158,7 @@ void exercise_8(string s) {
                 l++;
             }
             else{
-                return 0;
+                cout<<"NO";
             }
         }
         z++;
