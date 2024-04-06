@@ -172,7 +172,7 @@ void exercise_8(string s) {
         return b;
     }
     else{
-      return 0;
+      return "NO";
     }
     
     }
