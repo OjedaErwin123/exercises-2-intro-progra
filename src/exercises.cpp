@@ -241,19 +241,20 @@ void exercise_18_19(int debut, int fin) {
   while(debut<=fin){
     int x=debut;
     
-    while(debut>0){
-        if(debut%3==0){
-           debut=debut+4;
+    while(x>0){
+        if(x%3==0){
+           x=x+4;
         }
-        else if(debut%4==0){
-           debut=debut/2;
+        else if(x%4==0){
+           x=x/2;
         }
         else{
-           debut=debut-1;
+           x=x-1;
         }
         i++;
     }
-    cout<<x<<"->"<<i<<endl;
+    cout<<debut<<"->"<<i<<endl;
     debut++;
+    i=0;
   }
 }
