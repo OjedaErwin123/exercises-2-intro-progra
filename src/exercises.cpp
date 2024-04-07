@@ -234,4 +234,31 @@ void exercise_17(int n) {
 
 void exercise_18_19(int debut, int fin) {
   // TODO: YOUR CODE HERE
+  if(debut<0){
+        cout<<"No es mayor que 0";
+        return 0;
+    }
+    while(debut<=fin){
+    total(debut,fin);
+    debut++;
+    }
+    int total(int inicio,int bucle){
+    int x=inicio;
+    int i=0;
+    while(inicio>0){
+        if(inicio%3==0){
+           inicio=inicio+4;
+        }
+        else if(inicio%4==0){
+           inicio=inicio/2;
+        }
+        else{
+           inicio=inicio-1;
+        }
+        //cout<<inicio<<endl;
+        i++;
+    }
+    cout<<x<<"->"<<i<<endl;
+    return 0;
+}
 }
