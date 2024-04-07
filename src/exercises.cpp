@@ -199,6 +199,21 @@ string exercise_14(int n) {
 
 void exercise_15(int decimal) {
   // TODO: YOUR CODE HERE
+  int x,y,z;
+  string bin,bin1;
+  while(decimal>0){
+    x=decimal%2;
+    decimal=decimal/2;
+    y++;
+    bin=bin+to_string(x);
+  }
+  y=y-1;
+  while(z<=y){
+    bin1=bin1+bin[y];
+    y=y-1;
+  }
+  cout<<bin1"\n";
+
 }
 
 void exercise_16(int divident, int divider) {
