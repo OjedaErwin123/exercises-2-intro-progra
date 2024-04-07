@@ -236,10 +236,10 @@ void exercise_18_19(int debut, int fin) {
   // TODO: YOUR CODE HERE
   if(debut<0){
         cout<<"No es mayor que 0";
-        return 0;
+        return;
     }
     while(debut<=fin){
-    total(debut,fin);
+    int total(debut,fin);
     debut++;
     }
     int total(int inicio,int bucle){
@@ -259,6 +259,6 @@ void exercise_18_19(int debut, int fin) {
         i++;
     }
     cout<<x<<"->"<<i<<endl;
-    return 0;
+    return;
 }
 }
