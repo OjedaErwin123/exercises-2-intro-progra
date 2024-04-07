@@ -234,12 +234,13 @@ void exercise_17(int n) {
 
 void exercise_18_19(int debut, int fin) {
   // TODO: YOUR CODE HERE
+  int i=0;
   if(debut<0){
         cout<<"No es mayor que 0";
     }
   while(debut<=fin){
     int x=debut;
-    int i=0;
+    
     while(debut>0){
         if(debut%3==0){
            debut=debut+4;
