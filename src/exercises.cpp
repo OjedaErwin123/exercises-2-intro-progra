@@ -237,9 +237,11 @@ void exercise_18_19(int debut, int fin) {
   int i=0;
   if(debut<=0){
         cout<<"El numero debe de ser positivo y mayor a zero\n";
+        return;
     }
   if(fin<debut){
-        cout<<"El numero del fin no debe de ser menor que el inicial\n";
+        cout<<"El numero de fin no debe de ser menor que el inicial\n";
+        return;
     }
   while(debut<=fin){
     int x=debut;
