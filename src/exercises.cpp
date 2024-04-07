@@ -240,7 +240,7 @@ void exercise_18_19(int debut, int fin) {
         return;
     }
   if(fin<debut){
-        cout<<"El numero de fin no debe de ser menor que el inicial\n";
+        cout<<"El numero de fin no debe de ser menor al inicial\n";
         return;
     }
   while(debut<=fin){
