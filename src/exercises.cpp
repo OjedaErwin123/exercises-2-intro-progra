@@ -212,7 +212,7 @@ void exercise_15(int decimal) {
     bin1=bin1+bin[y];
     y=y-1;
   }
-  cout<<bin1<<"\n";
+  //cout<<bin1<<"\n";
 
 }
 
