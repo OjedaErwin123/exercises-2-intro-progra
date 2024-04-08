@@ -58,20 +58,15 @@ void exercise_3(string s1) {
     //cout<<nueva;
     lon2 = nueva.size()-1;
     //cout<<lon2;
-    if(lon2<=10){
         for(int i=0; i<=lon2 ;i++){
             if(nueva[i]==48){
-               cout<<"No hay torta\n";
+               cout<<"No cake :(\n";
             break;
            }
            else if(nueva[i]==49){
-               cout<<"Hay Torta\n";
+               cout<<"Om-nom-nom :P\n";
            }
         }
-    }
-    else{
-        cout<<"Ingrese una cadena mas corta\n";
-    }
 }
 
 void exercise_4(int n) {
