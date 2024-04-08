@@ -282,7 +282,7 @@ void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
   int n,x,y,z;
   x=divider;
-  y=divident
+  y=divident;
   z=0;
     for(int i=1; divider>=divident;i++){
       x=x-divident;
