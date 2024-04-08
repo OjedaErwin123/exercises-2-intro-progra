@@ -223,7 +223,7 @@ long exercise_13(int n, int k) {
   y=0;
   if(k<0){
     cout<<"Ingrese otra potencia";
-    return;
+    return 0;
   }
   for(int i=1; i<=n; i++){
     y=y+(pow(i,k));
