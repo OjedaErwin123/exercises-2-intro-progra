@@ -291,8 +291,6 @@ void exercise_16(int divident, int divider) {
     }
     n++;
   }
-
-    
   cout<<n<<" "<<x<<endl; 
 }
 
