@@ -220,18 +220,18 @@ void exercise_12() {
 long exercise_13(int n, int k) {
   // TODO: YOUR CODE HERE
   int x,y,z;
-  if(k==0){
+  y=0;
+  /*if(k==0){
     return 0;
-  }
-  else{
-    y=0;
+  }*/
+  //else{
     for(int i=1; i<=n; i++){
       y=(pow(i,k));
       z=z+y;  
       cout<<z;
     }
     
-  }
+  //}
 
 }
 
