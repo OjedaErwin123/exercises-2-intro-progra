@@ -228,7 +228,7 @@ long exercise_13(int n, int k) {
     i++;
       
   }
-  return 0;
+  return z;
 
 }
 
