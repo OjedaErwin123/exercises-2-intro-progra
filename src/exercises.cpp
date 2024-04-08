@@ -62,10 +62,13 @@ void exercise_3(string s1) {
             if(nueva[i]==48){
                cout<<"No cake :(\n";
             break;
-           }
-           else if(nueva[i]==49){
+            }
+            else if(nueva[i]==49){
+              if(i==11){
+                break;
+              }
                cout<<"Om-nom-nom :P\n";
-           }
+            }
         }
 }
 
