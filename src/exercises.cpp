@@ -64,7 +64,7 @@ void exercise_3(string s1) {
             break;
             }
             else if(nueva[i]==49){
-              if(i==11){
+              if(i==10){
                 break;
               }
                cout<<"Om-nom-nom :P\n";
