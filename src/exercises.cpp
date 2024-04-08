@@ -205,6 +205,10 @@ void exercise_15(int decimal) {
   n = decimal;
   int j=0;
     while(n>0){
+      if(decimal==0){
+      cout<<"0\n";
+      break;
+      }
       z = n%2;
       n = n/2;
       //cout<<z;
@@ -222,9 +226,6 @@ void exercise_15(int decimal) {
       cout<<cadena[x];
     }
     cout<<"\n";
-    if(decimal==0){
-      cout<<"0\n";
-    }
 }
 
 void exercise_16(int divident, int divider) {
