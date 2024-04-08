@@ -211,6 +211,16 @@ int exercise_10(int a, int b) {
 
 void exercise_11() {
   // TODO: YOUR CODE HERE
+  double u,R,x;
+  u=1;
+  x=1;
+  
+  for (int i = 0; i < 10; i++) {
+    R = u / (i + 1);
+    cout<<"U"<<x<<" = "<<R<<endl;
+    u=R;
+    x++;
+  }
 }
 
 void exercise_12() {
