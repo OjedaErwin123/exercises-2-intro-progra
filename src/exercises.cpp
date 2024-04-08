@@ -228,7 +228,6 @@ long exercise_13(int n, int k) {
     i++;
       
   }
-  cout<<y;
   return 0;
 
 }
