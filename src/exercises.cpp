@@ -228,7 +228,7 @@ long exercise_13(int n, int k) {
     z=z+y;
     i++;  
   }
-  cout<<z;
+  cout<<y;
 
 }
 
