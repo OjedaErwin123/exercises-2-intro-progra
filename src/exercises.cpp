@@ -220,16 +220,16 @@ void exercise_12() {
 long exercise_13(int n, int k) {
   // TODO: YOUR CODE HERE
   int i,x,y,z;
-  y=0;
   z=0;
   i=1;
   while(i<=n){
     y=(pow(i,k));
     z=z+y;
     i++;
-    return 0;  
+      
   }
   cout<<y;
+  return 0;
 
 }
 
