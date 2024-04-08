@@ -221,6 +221,7 @@ void exercise_15(int decimal) {
       x=x-1;
       cout<<cadena[x];
     }
+    cout<<"\n";
 }
 
 void exercise_16(int divident, int divider) {
