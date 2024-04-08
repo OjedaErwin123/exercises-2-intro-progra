@@ -199,20 +199,28 @@ string exercise_14(int n) {
 
 void exercise_15(int decimal) {
   // TODO: YOUR CODE HERE
-  int x,y,z;
-  string bin,bin1;
-  while(decimal>0){
-    x=decimal%2;
-    decimal=decimal/2;
-    y++;
-    bin=bin+to_string(x);
-  }
-  y=y-1;
-  while(z<=y){
-    bin1=bin1+bin[y];
-    y=y-1;
-  }
-  cout<<bin1;
+  int n,x,y,z;
+  int cadena1=0;
+  string cadena;
+  n = decimal;
+  int j=0;
+    while(n>0){
+      z = n%2;
+      n = n/2;
+      //cout<<z;
+      x++;
+      cadena= cadena+to_string(z);
+        
+    }
+    //cout<<cadena;
+    //int lon=bin.size();
+
+    while(j<x){
+      //cout<<bin[x];
+      //cadena1=cadena1+cadena[x];
+      x=x-1;
+      cout<<cadena[x];
+    }
 }
 
 void exercise_16(int divident, int divider) {
