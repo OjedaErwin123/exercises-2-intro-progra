@@ -228,9 +228,8 @@ long exercise_13(int n, int k) {
     y=0;
     for(int i=1; i<=n; i++){
       y=y+(pow(i,k));
-      cout<<y;
     }
-    
+    cout<<y;
   }
   
 }
