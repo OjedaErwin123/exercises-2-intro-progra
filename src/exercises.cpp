@@ -219,7 +219,17 @@ void exercise_12() {
 
 long exercise_13(int n, int k) {
   // TODO: YOUR CODE HERE
-  return 0;
+  int n,x,y,z;
+  y=0;
+  if(k<0){
+    cout<<"Ingrese otra potencia";
+    return;
+  }
+  for(int i=1; i<=n; i++){
+    y=y+(pow(i,k));
+  }
+  cout<<y;
+  
 }
 
 string exercise_14(int n) {
