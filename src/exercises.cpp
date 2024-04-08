@@ -227,11 +227,10 @@ long exercise_13(int n, int k) {
   else{
     y=0;
     for(int i=1; i<=n; i++){
-      y=y+(pow(i,k));
+      y+=(pow(i,k));
     }
-    cout<<y;
   }
-  
+    cout<<y;  
 }
 
 string exercise_14(int n) {
