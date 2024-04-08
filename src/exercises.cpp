@@ -204,11 +204,11 @@ void exercise_15(int decimal) {
   string cadena;
   n = decimal;
   int j=0;
-    while(n>0){
-      if(decimal==0){
+  if(decimal==0){
       cout<<"0\n";
-      break;
-      }
+  }
+  else{
+    while(n>0){
       z = n%2;
       n = n/2;
       //cout<<z;
@@ -225,7 +225,8 @@ void exercise_15(int decimal) {
       x=x-1;
       cout<<cadena[x];
     }
-    cout<<"\n";
+    cout<<"\n";    
+  }
 }
 
 void exercise_16(int divident, int divider) {
