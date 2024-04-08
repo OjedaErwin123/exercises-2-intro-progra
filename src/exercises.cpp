@@ -284,11 +284,12 @@ void exercise_16(int divident, int divider) {
   x=divider;
   y=divident;
   z=0;
-    for(int i=1; x>=divident;i++){
+    for(int i=1;i<=divident;i++){
       x-=divident;
       n=i;
       //divider=x;
     }
+    return n,x;
     
     cout<<n<<" "<<x<<endl; 
 }
