@@ -288,8 +288,8 @@ void exercise_16(int divident, int divider) {
     z=z+y;
     n++;
       if(z>x){
-        z=z-y;
-        n--;
+        //z=z-y;
+        //n--;
         break;
       }
     }
