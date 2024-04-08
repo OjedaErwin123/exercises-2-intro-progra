@@ -226,7 +226,8 @@ long exercise_13(int n, int k) {
   while(i<=n){
     y=(pow(i,k));
     z=z+y;
-    i++;  
+    i++;
+    return 0;  
   }
   cout<<y;
 
