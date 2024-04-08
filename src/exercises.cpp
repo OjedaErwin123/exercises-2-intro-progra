@@ -226,7 +226,6 @@ long exercise_13(int n, int k) {
     y=(pow(i,k));
     z=z+y;
     i++;
-      
   }
   return z;
 
