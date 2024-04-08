@@ -219,19 +219,16 @@ void exercise_12() {
 
 long exercise_13(int n, int k) {
   // TODO: YOUR CODE HERE
-  int x,y,z;
+  int i,x,y,z;
   y=0;
-  /*if(k==0){
-    return 0;
-  }*/
-  //else{
-    for(int i=1; i<=n; i++){
-      y=(pow(i,k));
-      z=z+y;  
-      cout<<z;
-    }
-    
-  //}
+  z=0;
+  i=1;
+  while(i<=n){
+    y=(pow(i,k));
+    z=z+y;
+    i++;  
+  }
+  cout<<z;
 
 }
 
