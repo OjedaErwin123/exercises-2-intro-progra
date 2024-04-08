@@ -40,6 +40,38 @@ void exercise_2(string s1) {
 
 void exercise_3(string s1) {
   // TODO: YOUR CODE HERE
+  string nueva;
+    int lon,lon2;
+    int x,y,z;
+    lon = s1.size();
+    //cout<<lon<<endl;
+    x=0;
+    while (x<=lon){
+        if(s1[x] == 32 ){
+            x++;
+        }
+        else{
+            nueva = nueva + s1[x];
+            x++;
+        }
+    }
+    //cout<<nueva;
+    lon2 = nueva.size()-1;
+    //cout<<lon2;
+    if(lon2<=10){
+        for(int i=0; i<=lon2 ;i++){
+            if(nueva[i]==48){
+               cout<<"No hay torta\n";
+            break;
+           }
+           else if(nueva[i]==49){
+               cout<<"Hay Torta\n";
+           }
+        }
+    }
+    else{
+        cout<<"Ingrese una cadena mas corta\n";
+    }
 }
 
 void exercise_4(int n) {
