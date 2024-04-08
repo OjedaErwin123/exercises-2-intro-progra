@@ -287,7 +287,7 @@ void exercise_16(int divident, int divider) {
   while(divident<=divider){
     x = x - divident;
     if(x==0){
-      break;
+      return;
     }
     n++;
   }
