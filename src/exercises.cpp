@@ -219,7 +219,7 @@ void exercise_12() {
 
 long exercise_13(int n, int k) {
   // TODO: YOUR CODE HERE
-  int n,x,y,z;
+  int x,y,z;
   y=0;
   if(k<0){
     cout<<"Ingrese otra potencia";
