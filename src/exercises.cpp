@@ -284,14 +284,16 @@ void exercise_16(int divident, int divider) {
   x=divider;
   y=divident;
   z=0;
-    for(int i=1;i<=divident;i++){
-      x-=divident;
-      n=i;
-      //divider=x;
+  while(divident<=divider){
+    x = x - divident;
+    if(divider==0){
+      break;
     }
-    return n,x;
+    n++;
+  }
+
     
-    cout<<n<<" "<<x<<endl; 
+  cout<<n<<" "<<x<<endl; 
 }
 
 void exercise_17(int n) {
