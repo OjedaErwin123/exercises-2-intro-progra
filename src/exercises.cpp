@@ -221,7 +221,6 @@ long exercise_13(int n, int k) {
   // TODO: YOUR CODE HERE
   int x,y,z;
   if(k==0){
-    cout<<"0";
     return 0;
   }
   else{
@@ -230,8 +229,9 @@ long exercise_13(int n, int k) {
       y=(pow(i,k));
       z=z+y;  
     }
+    cout<<z;
   }
- cout<<z;  
+
 }
 
 string exercise_14(int n) {
