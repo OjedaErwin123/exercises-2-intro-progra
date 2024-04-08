@@ -221,14 +221,16 @@ long exercise_13(int n, int k) {
   // TODO: YOUR CODE HERE
   int x,y,z;
   y=0;
-  if(k<0){
-    cout<<"Ingrese otra potencia";
+  if(k==0){
+    cout<<"0";
     return 0;
   }
-  for(int i=1; i<=n; i++){
-    y=y+(pow(i,k));
+  else{
+    for(int i=1; i<=n; i++){
+      y=y+(pow(i,k));
+    }
+    cout<<y;
   }
-  cout<<y;
   
 }
 
