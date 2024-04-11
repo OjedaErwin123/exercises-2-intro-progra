@@ -104,7 +104,7 @@ void exercise_5(int n, int k) {
         while(z<=f){
             if(z == 8){
                 if(z<10){
-                cout<<" "<<z<<" "<<endl;
+                cout<<" "<<z<<endl;
                 z++;
                 x=8;
                 }
