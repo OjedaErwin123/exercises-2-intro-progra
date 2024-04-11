@@ -95,13 +95,10 @@ int x=1;
 
 void exercise_5(int n, int k) {
   // TODO: YOUR CODE HERE
-  int i,f,n,x,z;
-    cout<<"Ingrese el primer dia: ";
-    cin>>i;
-    cout<<"Ingrese el ultimo dia: ";
-    cin>>f;
+  int i,f,x,z;
     cout<<"                   "<<"1"<<endl;
     z=2;
+    f=k;
     x=0;
     if(1<=i<=7 && 1<=f<=99){
         while(z<=f){
