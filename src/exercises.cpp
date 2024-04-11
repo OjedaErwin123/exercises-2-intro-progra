@@ -120,8 +120,8 @@ void exercise_5(int n, int k) {
                   cout<<" "<<z<<" ";
                   z++;
                 }
-                else if(z==15 || z==22 || z==29){
-                  cout<<z<<endl;
+                else if(z==15 || z==22 || z==29 || z==31){
+                  cout<<z<<"\n";
                   z++;
                 }
                 else{
