@@ -267,10 +267,10 @@ string exercise_14(int n) {
     n /= 10;
   }
   if (invertido == original){
-    return " es un número capicúa.";
+    return "Es palindrome";
   } 
   else {
-    return " no es un número capicúa.";
+    return "No es palindrome";
   }
   
 }
