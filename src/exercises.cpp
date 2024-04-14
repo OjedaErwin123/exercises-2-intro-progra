@@ -226,13 +226,13 @@ void exercise_9(string s) {
         }
     }
     if(n==1){
-        cout<<"-1";
+        cout<<"-1\n";
     }
     else if(n==0){
-        cout<<"-2";
+        cout<<"-2\n";
     }
     else{
-        cout<<x;
+        cout<<x<<endl;
     }
 }
 
