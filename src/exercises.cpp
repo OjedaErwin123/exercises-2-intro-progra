@@ -305,18 +305,20 @@ void exercise_16(int divident, int divider) {
   else if(divident==0){
     cout<<0<<" "<<0;
   }
-  a=divider-divident;
+  
+
   else{
-  for(int i=1;x>=y;i++){
-    a=a-divident;
-    //i++;
-    n=i;
-    z=w%divident;
-    if(a<divident){
+    a=divider-divident;
+    for(int i=1;x>=y;i++){
+      a=a-divident;
+      //i++;
+      n=i;
+      z=w%divident;
+      if(a<divident){
       break;
+      }
     }
-  }
-  cout<<n<<" "<<a<<endl;
+    cout<<n<<" "<<a<<endl;
     //cout<<x<<" sobra";    
   }
 }
