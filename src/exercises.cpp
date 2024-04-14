@@ -297,11 +297,10 @@ void exercise_16(int divident, int divider) {
         x=x-divident;
         n++;
         if(x==0){
-          cout<<n<<" "<<x<<endl;
           break;
         }
     }
-  
+  cout<<n<<" "<<x<<endl;
 }
 
 void exercise_17(int n) {
