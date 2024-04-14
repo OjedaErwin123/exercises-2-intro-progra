@@ -264,7 +264,7 @@ void exercise_12() {
   double u,R,x;
   u=1;
   x=1;
-  cout<<"U0 = 1\n";
+  //cout<<"U0 = 1\n";
   for (int i = 0; i < 10; i++) {
     R = u / (i + 1);
     cout<<"U"<<x<<" = "<<R<<" V"<<x<<" = "<<"1"<<endl;
