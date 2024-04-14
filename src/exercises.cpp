@@ -299,16 +299,13 @@ void exercise_16(int divident, int divider) {
   z=0;
   a=0;
   n=0;
-  if(divider==0 ||divider>divident){
+  if(divider==0){
     cout<<"";
   }
-  else if(divident==0){
+  else if(divident==0 ||divider>divident){
     cout<<0<<" "<<0;
   }
-  
-
   else{
-    a=divider-divident;
     for(int i=1;x>=y;i++){
       a=a-divident;
       //i++;
