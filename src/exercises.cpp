@@ -313,10 +313,11 @@ void exercise_16(int divident, int divider) {
       n=i;
       z=w%divident;
       if(a<divident){
+        cout<<i<<" "<<a<<endl;
       break;
       }
     }
-    cout<<i<<" "<<a<<endl;
+    //cout<<i<<" "<<a<<endl;
     //cout<<x<<" sobra";    
   }
 }
