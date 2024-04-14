@@ -261,6 +261,16 @@ void exercise_11() {
 
 void exercise_12() {
   // TODO: YOUR CODE HERE
+  double u,R,x;
+  u=1;
+  x=1;
+  cout<<"U0 = 1\n";
+  for (int i = 0; i < 10; i++) {
+    R = u / (i + 1);
+    cout<<"U"<<x<<" = "<<R<<" V"<<x<<" = "<<"1"<<endl;
+    u=R;
+    x++;
+  }
 }
 
 long exercise_13(int n, int k) {
