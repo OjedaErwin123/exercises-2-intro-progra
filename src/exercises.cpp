@@ -307,11 +307,11 @@ void exercise_16(int divident, int divider) {
     a=a+y;
     i++;
     if(a==divider){
+      cout<<i<<" "<<a<<endl;
       break;
     }
     //n=i;
   }
-    cout<<i<<" "<<a<<endl;
     //cout<<x<<" sobra";    
   }
 }
