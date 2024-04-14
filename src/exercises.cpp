@@ -291,7 +291,7 @@ void exercise_15(int decimal) {
 
 void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
-  int n,x,y,z;
+  int a,n,x,y,z;
   x=divider;
   y=divident;
   int i=0;
@@ -303,14 +303,14 @@ void exercise_16(int divident, int divider) {
   }
   else{
   while(x>=y){
-    x=x-y;
+    a=a+y;
     i++;
-    if(x==0){
+    if(a==divider){
       break;
     }
     //n=i;
   }
-    cout<<i<<" "<<x<<endl;
+    cout<<i<<" "<<a<<endl;
     //cout<<x<<" sobra";    
   }
 }
