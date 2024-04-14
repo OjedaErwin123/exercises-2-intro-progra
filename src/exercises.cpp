@@ -308,9 +308,7 @@ void exercise_16(int divident, int divider) {
           cout<<i<<" "<<y<<endl;
           break;
         }
-    }
-    cout<<n<<" "<<endl;
-      
+    } 
   }
 }
 
