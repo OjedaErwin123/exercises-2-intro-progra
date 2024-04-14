@@ -291,29 +291,17 @@ void exercise_15(int decimal) {
 
 void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
-  int n,w,x,y,z;
-  x=0;
-  n=0;
-  z=divider;
-  w=divident;
-  //int n=0;
-  if(divident==divider){
-    cout<<1<<" "<<0<<endl;
+  int n,x,y,z;
+  x=divider;
+  y=divident;
+  int i=0;
+  while(x>=y){
+    x=x-y;
+    i++;
+    //n=i;
   }
-  else if(divident==0 || divider==0 ){
-    cout<<"";
-  }
-  else{
-    for(int i=1;divider>=divident;i++){
-      x=x+divident;
-      y=z%w;
-      n=i;
-        if(x==divider){
-          break;
-        }
-    }
-    cout<<n<<" "<<y<<endl; 
-  }
+    cout<<i<<" veces"<<endl;
+    cout<<x<<" sobra";
 }
 
 void exercise_17(int n) {
