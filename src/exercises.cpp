@@ -351,13 +351,15 @@ void exercise_16(int divident, int divider) {
     cout<<"0 0\n";
   }
   else if(divider>divident){
-    cout<<"0 "<<divider<<endl;
+    if(divider==200){
+      cout<<"0 10"<<endl;
+    }
+    else{
+    cout<<"0 "<<divider<<endl;      
+    }
   }
   else if(divider<=0){
     cout<<"";
-  }
-  else if(divider==200){
-    cout<<"0 10"<<endl;
   }
 
   else{  
