@@ -377,7 +377,7 @@ void exercise_16(int divident, int divider) {
   x=divider;
   y=divident;
   if(divider>divident||divider<=0||divident<=0){
-    cout<<"0  0\n";
+    cout<<"0 0\n";
   }
   else{
     
@@ -385,7 +385,7 @@ void exercise_16(int divident, int divider) {
     y=y-x;
     n=i;
   }
-  cout<<n<<" "<<x<<endl;    
+  cout<<n<<" "<<y<<endl;    
   }
   //  cout<<" sobra";
 }
