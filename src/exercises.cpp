@@ -213,6 +213,27 @@ void exercise_8(string s) {
 
 void exercise_9(string s) {
   // TODO: YOUR CODE HERE
+  string cad;
+    int lon,n,x,y,z;
+    n=0;
+    lon=s.size();
+    for(int i=1;i<=lon;i++){
+        cad[i]=s[i];
+        if(cad[i]==102){
+            n=n+1;
+            x=i;
+            continue;
+        }
+    }
+    if(n==1){
+        cout<<"-1";
+    }
+    else if(n==0){
+        cout<<"-2";
+    }
+    else{
+        cout<<x;
+    }
 }
 
 int exercise_10(int a, int b) {
