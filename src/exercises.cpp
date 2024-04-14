@@ -294,7 +294,7 @@ void exercise_16(int divident, int divider) {
   int x=divider;
   int n;
   for(int i=1; x>=divident;i++){
-        x=x-y;
+        x=x-divident;
         n=i;
     }
   cout<<n<<" "<<x<<endl;
