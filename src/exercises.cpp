@@ -294,6 +294,7 @@ void exercise_16(int divident, int divider) {
   int a,n,w,x,y,z;
   x=divider;
   w=divider;
+  a=divider;
   y=divident;
   //int i=0;
   z=0;
