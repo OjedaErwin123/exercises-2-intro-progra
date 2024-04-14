@@ -238,7 +238,11 @@ void exercise_9(string s) {
 
 int exercise_10(int a, int b) {
   // TODO: YOUR CODE HERE
-  return 0;
+  while (b != 0) {
+    a %= b;
+    swap(a, b);
+  }
+  return abs(a);
 }
 
 void exercise_11() {
