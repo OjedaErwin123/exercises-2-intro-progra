@@ -254,6 +254,31 @@ long exercise_13(int n, int k) {
 
 string exercise_14(int n) {
   // TODO: YOUR CODE HERE
+  int numero=n;
+  bool esCapicua(int numero) {
+    if (numero < 0) {
+    return false;
+  }
+  int original = numero;
+  int invertido = 0;
+
+  while (numero > 0) {
+    int digito = numero % 10;
+    invertido = invertido * 10 + digito;
+    numero /= 10;
+  }
+
+  return original == invertido;
+}
+  
+  //cout << "Ingrese un número: ";
+  //cin >> numero;
+
+  if (esCapicua(numero)) {
+    cout << numero << " es un número capicúa." << endl;
+  } else {
+    cout << numero << " no es un número capicúa." << endl;
+  }
   return "";
 }
 
@@ -291,7 +316,7 @@ void exercise_15(int decimal) {
 
 void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
-  int a,n,w,x,y,z;
+/*  int a,n,w,x,y,z;
   x=divider;
   w=divider;
   a=divider;
@@ -319,7 +344,7 @@ void exercise_16(int divident, int divider) {
     }
     //cout<<i<<" "<<a<<endl;
     //cout<<x<<" sobra";    
-  }
+  }*/
 }
 
 void exercise_17(int n) {
