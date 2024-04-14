@@ -295,6 +295,13 @@ void exercise_16(int divident, int divider) {
   x=divider;
   y=divident;
   int i=0;
+  if(divider==0 ||divider>divident){
+    cout<<"";
+  }
+  else if(divident==0){
+    cout<<0<<" "<<0;
+  }
+  else{
   while(x>=y){
     x=x-y;
     i++;
@@ -303,8 +310,9 @@ void exercise_16(int divident, int divider) {
     }
     //n=i;
   }
-    cout<<i<<" veces"<<endl;
-    cout<<x<<" sobra";
+    cout<<i<<" "<<x<<endl;
+    //cout<<x<<" sobra";    
+  }
 }
 
 void exercise_17(int n) {
