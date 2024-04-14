@@ -293,6 +293,7 @@ void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
   int n,w,x,y,z;
   x=0;
+  n=0;
   z=divider;
   w=divident;
   //int n=0;
@@ -311,7 +312,7 @@ void exercise_16(int divident, int divider) {
           break;
         }
     }
-    cout<<i<<" "<<y<<endl; 
+    cout<<n<<" "<<y<<endl; 
   }
 }
 
