@@ -291,9 +291,9 @@ void exercise_15(int decimal) {
 
 void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
-  int x=divider;
+  divider;
   int n=0;
-  while( x>=divident){
+  while( divider>=divident){
         x=x-divident;
         n++;
         if(x==0){
