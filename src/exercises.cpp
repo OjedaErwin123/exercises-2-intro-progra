@@ -293,6 +293,7 @@ void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
   int x,y,z;
   x=0;
+  z=0;
   //int n=0;
   if(divident==divider){
     cout<<1<<" "<<0<<endl;
@@ -301,14 +302,15 @@ void exercise_16(int divident, int divider) {
     cout<<"";
   }
   else{
-    for(int i=1;divider>=x;i++){
+    for(int i=1;divider>=divident;i++){
       x=x+divident;
       y=divider%divident;
+      z=i;
         if(x==divider){
-          cout<<i<<" "<<y<<endl;
           break;
         }
-    } 
+    }
+    cout<<z<<" "<<y<<endl; 
   }
 }
 
