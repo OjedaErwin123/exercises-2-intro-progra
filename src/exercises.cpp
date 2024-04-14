@@ -253,33 +253,26 @@ long exercise_13(int n, int k) {
 }
 
 string exercise_14(int n) {
-  // TODO: YOUR CODE HERE
-  int numero=n;
-  bool esCapicua(int numero) {
-    if (numero < 0) {
-    return false;
+  // TODO: YOUR CODE HERE  
+  if (n < 0) {
+    return "No es palindrome";
   }
-  int original = numero;
+
+  int original = n;
   int invertido = 0;
 
-  while (numero > 0) {
-    int digito = numero % 10;
+  while (n > 0) {
+    int digito = n % 10;
     invertido = invertido * 10 + digito;
-    numero /= 10;
+    n /= 10;
   }
-
-  return original == invertido;
-}
+  if (invertido == original){
+    return " es un número capicúa.";
+  } 
+  else {
+    return " no es un número capicúa.";
+  }
   
-  //cout << "Ingrese un número: ";
-  //cin >> numero;
-
-  if (esCapicua(numero)) {
-    cout << numero << " es un número capicúa." << endl;
-  } else {
-    cout << numero << " no es un número capicúa." << endl;
-  }
-  return "";
 }
 
 void exercise_15(int decimal) {
