@@ -294,7 +294,7 @@ void exercise_16(int divident, int divider) {
   int x,y,z;
   x=0;
   int n=0;
-  if(divident==0 || divider==0){
+  if(divident==0 || divider==0 || divident==divider){
     cout<<" "<<endl;
   }
   else{
