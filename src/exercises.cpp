@@ -293,9 +293,12 @@ void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
   int x,y,z;
   x=0;
-  int n=0;
-  if(divident==0 || divider==0 || divident==divider){
-    cout<<0<<" "<<0<<endl;
+  //int n=0;
+  if(divident==divider){
+    cout<<1<<" "<<0<<endl;
+  }
+  else if(divident==0 || divider==0 ){
+    cout<<"";
   }
   else{
     for(int i=1;divider>=x;i++){
