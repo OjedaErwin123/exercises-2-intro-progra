@@ -306,12 +306,13 @@ void exercise_16(int divident, int divider) {
   while(x>=y){
     a=a+y;
     i++;
+    n=i;
+    z=divider%divident;
     if(a==divider){
-      cout<<i<<" "<<a<<endl;
       break;
     }
-    //n=i;
   }
+  cout<<n<<" "<<z<<endl;
     //cout<<x<<" sobra";    
   }
 }
