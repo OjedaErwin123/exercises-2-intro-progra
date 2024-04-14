@@ -291,9 +291,10 @@ void exercise_15(int decimal) {
 
 void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
-  int x,y,z;
+  int w,x,y,z;
   x=0;
-  z=0;
+  z=divider;
+  w=divident
   //int n=0;
   if(divident==divider){
     cout<<1<<" "<<0<<endl;
@@ -304,13 +305,13 @@ void exercise_16(int divident, int divider) {
   else{
     for(int i=1;divider>=divident;i++){
       x=x+divident;
-      y=divider%divident;
-      z=i;
+      y=z%w;
+      i;
         if(x==divider){
           break;
         }
     }
-    cout<<z<<" "<<y<<endl; 
+    cout<<i<<" "<<y<<endl; 
   }
 }
 
