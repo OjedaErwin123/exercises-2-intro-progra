@@ -294,14 +294,20 @@ void exercise_16(int divident, int divider) {
   int x,y,z;
   x=0;
   int n=0;
-  while(divider>=x){
-        x=x+divident;
-        n++;
+  if(divident==0 || divider==0){
+    cout<<" "<<endl;
+  }
+  else{
+    while(divider>=x){
+      x=x+divident;
+      n++;
         if(x==divider){
           break;
         }
     }
-  cout<<n<<" "<<endl;
+    cout<<n<<" "<<endl;
+      
+  }
 }
 
 void exercise_17(int n) {
