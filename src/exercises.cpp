@@ -295,12 +295,12 @@ void exercise_16(int divident, int divider) {
   x=0;
   int n=0;
   if(divident==0 || divider==0 || divident==divider){
-    cout<<" "<<endl;
+    cout<<0<<" "<<0<<endl;
   }
   else{
-    while(divider>=x){
+    for(int i=1;divider>=x;i++){
       x=x+divident;
-      n++;
+      n=i;
         if(x==divider){
           break;
         }
