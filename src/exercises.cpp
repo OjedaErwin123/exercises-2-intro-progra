@@ -294,13 +294,13 @@ void exercise_16(int divident, int divider) {
   divider;
   int n=0;
   while( divider>=divident){
-        x=x-divident;
+        divider=divider-divident;
         n++;
-        if(x==0){
+        if(divider==0){
           break;
         }
     }
-  cout<<n<<" "<<x<<endl;
+  cout<<n<<" "<<divider<<endl;
 }
 
 void exercise_17(int n) {
