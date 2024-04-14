@@ -291,8 +291,9 @@ void exercise_15(int decimal) {
 
 void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
-  int a,n,x,y,z;
+  int a,n,w,x,y,z;
   x=divider;
+  w=divider;
   y=divident;
   int i=0;
   z=0;
@@ -308,7 +309,7 @@ void exercise_16(int divident, int divider) {
     a=a+y;
     i++;
     n=i;
-    z=divider%divident;
+    z=w%divident;
     if(a==divider){
       break;
     }
