@@ -376,13 +376,13 @@ void exercise_16(int divident, int divider) {
   int n,x,y,z;
   x=divider;
   y=divident;
-  if(divident>divider||divider<=0||divident<=0){
+  if(divider>divident||divider<=0||divident<=0){
     cout<<"0  0\n";
   }
   else{
     
-  for(int i=1; x>=y;i++){
-    x=x-y;
+  for(int i=1; y>=x;i++){
+    y=y-x;
     n=i;
   }
   cout<<n<<" "<<x<<endl;    
