@@ -307,7 +307,7 @@ void exercise_16(int divident, int divider) {
     cout<<0<<" "<<0;
   }
   else{
-    for(int i=1;x>=y;i++){
+    for(int i;x>=y;i++){
       a=a-divident;
       //i++;
       n=i;
@@ -316,7 +316,7 @@ void exercise_16(int divident, int divider) {
       break;
       }
     }
-    cout<<n<<" "<<a<<endl;
+    cout<<i<<" "<<a<<endl;
     //cout<<x<<" sobra";    
   }
 }
