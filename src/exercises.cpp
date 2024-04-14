@@ -300,8 +300,9 @@ void exercise_16(int divident, int divider) {
   else{
     for(int i=1;divider>=x;i++){
       x=x+divident;
-      n=i;
+      y=divider%divident;
         if(x==divider){
+          cout<<i<<" "<<y<<endl;
           break;
         }
     }
