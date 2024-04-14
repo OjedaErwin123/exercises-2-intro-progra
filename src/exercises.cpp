@@ -373,13 +373,13 @@ void exercise_16(int divident, int divider) {
     //cout<<i<<" "<<a<<endl;
     //cout<<x<<" sobra";    
   }*/
-  if(divident>divider||divider<=0||divident<=0){
-    cout<<"0   0";
-  }
-  else{
   int n,x,y,z;
   x=divider;
   y=divident;
+  if(divident>divider||divider<=0||divident<=0){
+    cout<<"0  0\n";
+  }
+  else{
     
   for(int i=1; x>=y;i++){
     x=x-y;
