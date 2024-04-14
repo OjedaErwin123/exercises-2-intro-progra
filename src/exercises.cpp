@@ -344,50 +344,26 @@ void exercise_15(int decimal) {
 
 void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
-/*  int a,n,w,x,y,z;
-  x=divider;
-  w=divider;
-  a=divider;
-  y=divident;
-  //int i=0;
-  z=0;
-  a=0;
-  n=0;
-  if(divider==0){
-    cout<<"";
-  }
-  else if(divident==0 ||divider>divident){
-    cout<<0<<" "<<0;
-  }
-  else{
-    for(int i;x>=y;i++){
-      a=a-divident;
-      //i++;
-      n=i;
-      z=w%divident;
-      if(a<divident){
-        cout<<i<<" "<<a<<endl;
-      break;
-      }
-    }
-    //cout<<i<<" "<<a<<endl;
-    //cout<<x<<" sobra";    
-  }*/
   int n,x,y,z;
   x=divider;
   y=divident;
-  if(divider>divident||divider<=0||divident<=0){
+  if(divident<=0){
     cout<<"0 0\n";
   }
-  else{
-    
-  for(int i=1; y>=x;i++){
-    y=y-x;
-    n=i;
+  else if(divider>divident){
+    cout<<"0 "<<divider<<endl;
   }
-  cout<<n<<" "<<y<<endl;    
+  else if(divider<=0){
+    cout<<"";
   }
-  //  cout<<" sobra";
+
+  else{  
+    for(int i=1; y>=x;i++){
+      y=y-x;
+      n=i;
+    }
+    cout<<n<<" "<<y<<endl;    
+  }
 }
 
 void exercise_17(int n) {
