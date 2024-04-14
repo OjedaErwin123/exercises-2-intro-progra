@@ -298,6 +298,9 @@ void exercise_16(int divident, int divider) {
   while(x>=y){
     x=x-y;
     i++;
+    if(x==0){
+      break;
+    }
     //n=i;
   }
     cout<<i<<" veces"<<endl;
