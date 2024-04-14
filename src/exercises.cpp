@@ -298,6 +298,7 @@ void exercise_16(int divident, int divider) {
         n++;
         if(x==0){
           cout<<n<<" "<<x<<endl;
+          break;
         }
     }
   
