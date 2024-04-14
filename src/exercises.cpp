@@ -292,12 +292,15 @@ void exercise_15(int decimal) {
 void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
   int x=divider;
-  int n;
-  for(int i=1; x>=divident;i++){
+  int n=0;
+  while( x>=divident){
         x=x-divident;
-        n=i;
+        n++;
+        if(x==0){
+          cout<<n<<" "<<x<<endl;
+        }
     }
-  cout<<n<<" "<<x<<endl;
+  
 }
 
 void exercise_17(int n) {
