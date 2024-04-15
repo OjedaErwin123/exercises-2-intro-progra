@@ -100,13 +100,13 @@ void exercise_5(int n, int k) {
   lon=calendar.size();
   switch(n){
     case 1:
-      calendar=" "+x;
+      calendar=""+x;
       break;
     case 2:
-      calendar="  "+x;
+      calendar=" "+x;
       break;
     case 3:
-      calendar="    "+x;
+      calendar="   "+x;
       break;
     case 4:
       calendar= "       "+ x;
@@ -118,7 +118,7 @@ void exercise_5(int n, int k) {
       calendar="           "+x;
       break;
     case 7:
-      calendar="             "+x;
+      calendar="                   "+x;
       break;
   }
   for(int i=1; i<=k; i++){
