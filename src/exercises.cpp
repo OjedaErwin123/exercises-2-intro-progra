@@ -127,6 +127,7 @@ void exercise_5(int n, int k) {
     while(y<=14){
       if(calendar[calendar.size()-1] == x + (x*y) + y){
         calendar= calendar + '\n';
+        break;
       }
       ++y;
     }
