@@ -134,7 +134,7 @@ void exercise_5(int n, int k) {
       calendar = calendar + to_string(i);
     }
     else if(to_string(i).size()==1 && calendar[calendar.size()-1] != '\n'){
-      cont = " " + to_string(i);
+      cont = "  " + to_string(i);
       calendar = calendar + cont;
     }
     else if(to_string(i).size()==1 && calendar[calendar.size()-1] == '\n'){
@@ -150,7 +150,7 @@ void exercise_5(int n, int k) {
       calendar = calendar + to_string(i);
     }
   }
-  cout<<calendar<<" "<<endl;
+  cout<< calendar << " \n" ;
 
   }
 
