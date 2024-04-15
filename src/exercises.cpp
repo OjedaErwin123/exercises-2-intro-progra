@@ -95,44 +95,65 @@ int x=1;
 
 void exercise_5(int n, int k) {
   // TODO: YOUR CODE HERE
-  int i,f,x,z;
-    cout<<"                   "<<"1"<<endl;
-    z=2;
-    f=k;
-    x=0;
-    if(1<=i<=7 && 1<=f<=99){
-        while(z<=f){
-            if(z == 8){
-                if(z<10){
-                cout<<" "<<z<<endl;
-                z++;
-                x=8;
-                }
-                else{
-                    cout<<z<<" "<<endl;
-                    z++;
-                }
-            }
-            
-            
-            else{
-                if(z<10){
-                  cout<<" "<<z<<" ";
-                  z++;
-                }
-                else if(z==15 || z==22 || z==29 || z==31){
-                  cout<<z<<"\n";
-                  z++;
-                }
-                else{
-                  cout<<z<<" ";
-                  z++;
-                }
-            }
-        x--;
-        }
+  string calendar;
+  int lon,x,y,z;
+  lon=calendar.size()
+
+  switch(n){
+    case 1:
+      calendar = " "x;
+      break;
+    case 2:
+      calendar = "  "x;
+      break;
+    case 3:
+      calendar = "   "x;
+      break;
+    case 4:
+      calendar = "    "x;
+      break;
+    case 5:
+      calendar = "     "x;
+      break;
+    case 6:
+      calendar = "      "x;
+      break;
+    case 7:
+      calendar = "       "x;
+      break;
+  }
+  x=20;
+  y=0;
+  for(int i=1; i<=k; i++){
+    while(y<=14){
+      if(lon == x + (x*y) + y){
+        calendar= calendar + '\n';
+      }
+      y++;
     }
-}
+    if(n==1 && lon==1){
+      calendar = calendar + to_string(i);
+    }
+    else if(to_string(i).size()==1 && lon-1 != '\n'){
+      _i = "  " + to_string(i);
+      calendar = calendar + _i;
+    }
+    else if(to_string(i).size()==1 && lon-1 == '\n'){
+      _i = " " + to_string(i);
+      calendar = calendar + _i;
+    }
+    else if(to_string(i).size()==2 && lon-1 != '\n'){
+      _i = " " + to_string(i);
+      calendar = calendar + _i;
+    }
+    else if(to_string(i).size()==2 && lon-1 == '\n'){
+      //_i = " " + to_string(i);
+      calendar = calendar + _i;
+    }
+  }
+  cout<<calendar<<" "<<endl;
+
+  }
 
 int exercise_6(int n) {
   // TODO: YOUR CODE HERE
