@@ -98,28 +98,27 @@ void exercise_5(int n, int k) {
   string calendar,cont;
   int lon,y,z;
   lon=calendar.size();
-
   switch(n){
     case 1:
-      calendar = " "x;
+      cout<<" "x;
       break;
     case 2:
-      calendar = "  "x;
+      cout<<"  "x;
       break;
     case 3:
-      calendar = "    "x;
+      cout<<"    "x;
       break;
     case 4:
-      calendar = "       "x;
+      cout<<"       "x;
       break;
     case 5:
-      calendar = "         "x;
+      cout<<"         "x;
       break;
     case 6:
-      calendar = "           "x;
+      cout<<"           "x;
       break;
     case 7:
-      calendar = "             "x;
+      cout<<"             "x;
       break;
   }
   for(int i=1; i<=k; i++){
