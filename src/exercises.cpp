@@ -95,30 +95,30 @@ int x=1;
 
 void exercise_5(int n, int k) {
   // TODO: YOUR CODE HERE
-  string calendar,cont;
+  string calendar, _i;
   int lon,x,y,z;
   lon=calendar.size();
   switch(n){
     case 1:
-      cout<<" "<<x;
+      calendar=" "+x;
       break;
     case 2:
-      cout<<"  "<<x;
+      calendar="  "+x;
       break;
     case 3:
-      cout<<"      "<<x;
+      calendar="      "+x;
       break;
     case 4:
-      cout<<"          "<<x;
+      calendar="          "+x;
       break;
     case 5:
-      cout<<"              "<<x;
+      calendar="              "+x;
       break;
     case 6:
-      cout<<"                  "<<x;
+      calendar="                  "+x;
       break;
     case 7:
-      cout<<"                      "<<x;
+      calendar="                      "+x;
       break;
   }
   for(int i=1; i<=k; i++){
@@ -130,22 +130,22 @@ void exercise_5(int n, int k) {
       }
       ++y;
     }
-    if(n==1 && calendar[calendar.size()-1]==1){
+    if(n==1 && calendar.size()==1){
       calendar = calendar + to_string(i);
     }
-    else if(to_string(i).size()==1 && calendar[calendar.size()-1] != '\n'){
-      cont = "  " + to_string(i);
-      calendar = calendar + cont;
+    else if(to_string(i).size()==1 && calendar[calendar.size()-1]!='\n'){
+      _i = "  " + to_string(i);
+      calendar = calendar + _i;
     }
-    else if(to_string(i).size()==1 && calendar[calendar.size()-1] == '\n'){
-      cont = " " + to_string(i);
-      calendar = calendar + cont;
+    else if(to_string(i).size()==1 && calendar[calendar.size()-1]=='\n'){
+      _i = " " + to_string(i);
+      calendar = calendar + _i;
     }
-    else if(to_string(i).size()==2 && calendar[calendar.size()-1] != '\n'){
-      cont = " " + to_string(i);
-      calendar = calendar + cont;
+    else if(to_string(i).size()==2 && calendar[calendar.size()-1]!='\n'){
+      _i = " " + to_string(i);
+      calendar = calendar + _i;
     }
-    else if(to_string(i).size()==2 && calendar[calendar.size()-1] == '\n'){
+    else if(to_string(i).size()==2 && calendar[calendar.size()-1]=='\n'){
       //_i = " " + to_string(i);
       calendar = calendar + to_string(i);
     }
