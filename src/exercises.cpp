@@ -104,22 +104,22 @@ void exercise_5(int n, int k) {
       calendar = " "x;
       break;
     case 2:
-      calendar = "   "x;
+      calendar = "  "x;
       break;
     case 3:
-      calendar = "       "x;
+      calendar = "    "x;
       break;
     case 4:
-      calendar = "         "x;
+      calendar = "       "x;
       break;
     case 5:
-      calendar = "           "x;
+      calendar = "         "x;
       break;
     case 6:
-      calendar = "             "x;
+      calendar = "           "x;
       break;
     case 7:
-      calendar = "               "x;
+      calendar = "             "x;
       break;
   }
   for(int i=1; i<=k; i++){
