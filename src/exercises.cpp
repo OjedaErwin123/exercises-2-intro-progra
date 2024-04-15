@@ -125,10 +125,10 @@ void exercise_5(int n, int k) {
   x=20;
   y=0;
     while(y<=14){
-      if(lon == x + (x*y) + y){
+      if(calendar[calendar.size()-1] == x + (x*y) + y){
         calendar= calendar + '\n';
       }
-      y++;
+      ++y;
     }
     if(n==1 && calendar[calendar.size()-1]==1){
       calendar = calendar + to_string(i);
