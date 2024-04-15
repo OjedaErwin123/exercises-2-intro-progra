@@ -118,14 +118,14 @@ void exercise_5(int n, int k) {
       calendar="             "+x;
       break;
     case 7:
-      calendar="                 "+x;
+      calendar="                  "+x;
       break;
   }
   for(int i=1; i<=k; i++){
-  x=20;
-  y=0;
+      x=20;
+      y=0;
     while(y<=14){
-      if(calendar[calendar.size()-1] == x + (x*y) + y){
+      if(calendar[calendar.size()] == x+(x*y)+y){
         calendar= calendar + '\n';
         break;
       }
@@ -151,7 +151,7 @@ void exercise_5(int n, int k) {
       calendar = calendar + to_string(i);
     }
   }
-  cout<< calendar << " \n" ;
+  cout<< calendar << " " << endl ;
 
   }
 
