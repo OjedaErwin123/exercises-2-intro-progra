@@ -100,25 +100,25 @@ void exercise_5(int n, int k) {
   lon=calendar.size();
   switch(n){
     case 1:
-      calendar=  " "x;
+      cout<<" "<<x<<endl;
       break;
     case 2:
-      calendar=  "  "x;
+      cout<<"  "<<x<<endl;
       break;
     case 3:
-      calendar=  "      "x;
+      cout<<"      "<<x<<endl;
       break;
     case 4:
-      calendar=  "          "x;
+      cout<<"          "<<x<<endl;
       break;
     case 5:
-      calendar=  "              "x;
+      cout<<"              "<<x<<endl;
       break;
     case 6:
-      calendar=  "                  "x;
+      cout<<"                  "<<x<<endl;
       break;
     case 7:
-      calendar=  "                      "x;
+      cout<<"                      "<<x<<endl;
       break;
   }
   for(int i=1; i<=k; i++){
