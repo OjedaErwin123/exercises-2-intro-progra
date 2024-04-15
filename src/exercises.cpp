@@ -96,7 +96,7 @@ int x=1;
 void exercise_5(int n, int k) {
   // TODO: YOUR CODE HERE
   string calendar,cont;
-  int lon,y,z;
+  int lon,x,y,z;
   lon=calendar.size();
   switch(n){
     case 1:
@@ -122,7 +122,7 @@ void exercise_5(int n, int k) {
       break;
   }
   for(int i=1; i<=k; i++){
-  int x=20;
+  x=20;
   y=0;
     while(y<=14){
       if(lon == x + (x*y) + y){
@@ -133,19 +133,19 @@ void exercise_5(int n, int k) {
     if(n==1 && lon==1){
       calendar = calendar + to_string(i);
     }
-    else if(to_string(i).size()==1 && lon[lon-1] != '\n'){
+    else if(to_string(i).size()==1 && lon-1 != '\n'){
       cont = "  " + to_string(i);
       calendar = calendar + cont;
     }
-    else if(to_string(i).size()==1 && lon[lon-1] == '\n'){
+    else if(to_string(i).size()==1 && lon-1 == '\n'){
       cont = " " + to_string(i);
       calendar = calendar + cont;
     }
-    else if(to_string(i).size()==2 && lon[lon-1] != '\n'){
+    else if(to_string(i).size()==2 && lon-1 != '\n'){
       cont = " " + to_string(i);
       calendar = calendar + cont;
     }
-    else if(to_string(i).size()==2 && lon[lon-1] == '\n'){
+    else if(to_string(i).size()==2 && lon-1 == '\n'){
       //_i = " " + to_string(i);
       calendar = calendar + to_string(i);
     }
