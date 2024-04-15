@@ -101,7 +101,7 @@ void exercise_5(int n, int k) {
 
   switch(n){
     case 1:
-      calendar = "   "x;
+      calendar = " "x;
       break;
     case 2:
       calendar = "   "x;
