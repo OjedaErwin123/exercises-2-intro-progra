@@ -97,7 +97,7 @@ void exercise_5(int n, int k) {
   // TODO: YOUR CODE HERE
   string calendar;
   int lon,x,y,z;
-  lon=calendar.size()
+  lon=calendar.size();
 
   switch(n){
     case 1:
