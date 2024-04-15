@@ -122,9 +122,9 @@ void exercise_5(int n, int k) {
       calendar = "       "x;
       break;
   }
+  for(int i=1; i<=k; i++){
   x=20;
   y=0;
-  for(int i=1; i<=k; i++){
     while(y<=14){
       if(lon == x + (x*y) + y){
         calendar= calendar + '\n';
