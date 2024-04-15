@@ -112,10 +112,10 @@ void exercise_5(int n, int k) {
       calendar= "        "+ x;
       break;
     case 5:
-      calendar="            "+x;
+      calendar="           "+x;
       break;
     case 6:
-      calendar="              "+x;
+      calendar="             "+x;
       break;
     case 7:
       calendar="                 "+x;
@@ -134,7 +134,7 @@ void exercise_5(int n, int k) {
       calendar = calendar + to_string(i);
     }
     else if(to_string(i).size()==1 && calendar[calendar.size()-1] != '\n'){
-      cont = "  " + to_string(i);
+      cont = " " + to_string(i);
       calendar = calendar + cont;
     }
     else if(to_string(i).size()==1 && calendar[calendar.size()-1] == '\n'){
