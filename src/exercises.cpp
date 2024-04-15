@@ -95,7 +95,7 @@ int x=1;
 
 void exercise_5(int n, int k) {
   // TODO: YOUR CODE HERE
-  string calendar;
+  string calendar,cont;
   int lon,x,y,z;
   lon=calendar.size();
 
@@ -135,20 +135,20 @@ void exercise_5(int n, int k) {
       calendar = calendar + to_string(i);
     }
     else if(to_string(i).size()==1 && lon-1 != '\n'){
-      _i = "  " + to_string(i);
-      calendar = calendar + _i;
+      cont = "  " + to_string(i);
+      calendar = calendar + cont;
     }
     else if(to_string(i).size()==1 && lon-1 == '\n'){
-      _i = " " + to_string(i);
-      calendar = calendar + _i;
+      cont = " " + to_string(i);
+      calendar = calendar + cont;
     }
     else if(to_string(i).size()==2 && lon-1 != '\n'){
-      _i = " " + to_string(i);
-      calendar = calendar + _i;
+      cont = " " + to_string(i);
+      calendar = calendar + cont;
     }
     else if(to_string(i).size()==2 && lon-1 == '\n'){
       //_i = " " + to_string(i);
-      calendar = calendar + _i;
+      calendar = calendar + cont;
     }
   }
   cout<<calendar<<" "<<endl;
